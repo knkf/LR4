@@ -1,0 +1,5 @@
+array = input("Введите элементы списка через пробел: ")
+l = list([int(array) for array in array.split()])
+k1 = int(input("Введите число k1: "))
+k2 = int(input("Введите число k2: "))
+print(l[k2:len(l)] + l[k1:k2] + l[0:k1])
